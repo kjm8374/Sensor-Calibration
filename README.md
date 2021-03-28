@@ -19,3 +19,9 @@ makes a plot called 'graph.png' which displays the graph.
 display graph.png
 ```
 displays the graph
+
+While compiling if prompted with an error message stating **./realDevice or ./myplot : Permission denied** then make it an executable file by doing the following
+
+```UNIX
+chmod +x ./myplot ./realDevice
+```
