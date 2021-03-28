@@ -8,7 +8,7 @@ My approach is to model the sensor error function, generate a matching polynomia
 ```UNIX
 make all 
 ```
-makes hw11.c and correction.c files
+compiles and generates binaries for hw11.c and correction.c files
 
 ```UNIX
 make plot
@@ -24,4 +24,9 @@ While compiling if prompted with an error message stating **./realDevice or ./my
 
 ```UNIX
 make x 
+```
+To delete the generated binaries, txt, and graph, use the following
+
+```UNIX
+make clean
 ```
